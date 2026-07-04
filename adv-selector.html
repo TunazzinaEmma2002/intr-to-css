@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced selectors</title>
+    <style>
+       ol, ul  , .special{
+        background-color: lightblue;
+      
+       }
+       .red{
+        color: red;
+       }
+       .green{
+        color: green;
+       }
+       .bold{
+        font-weight: bold;
+       }
+       .green.bold{
+        font-size: 2.5rem;
+       }
+       article >p{
+        color: blue;
+       }
+       /* article p{
+        color: blue;
+       } */
+       article{
+        background-color: lightgreen;
+       }
+    </style>
+</head>
+<body>
+    <h2>Advanced Selectors</h2>
+    <h2 class="special">Advanced Selectors</h2>
+    <h2>Advanced Selectors</h2>
+    <p>This is a paragraph.</p>
+    <article>
+        <h3>This is an article</h3>
+        <p>This is a paragraph inside the article.</p>
+        <p>This is a paragraph inside the article.</p>
+        <div>
+            <p>This is a paragraph inside the article.</p>
+            <p>This is a paragraph inside the article.</p>  
+        </div>
+    </article>
+    <article>
+        <h3>This is an article</h3>
+        <p>This is a paragraph inside the article.</p>
+        <p>This is a paragraph inside the article.</p>
+        <div>
+            <p>This is a paragraph inside the article.</p>
+            <p>This is a paragraph inside the article.</p>  
+        </div>
+    </article>
+    <ol>
+        <li>First item</li>
+        <li class="red bold highlight">Second item</li>
+        <li class="bold">Third item</li>
+        <li class="red">Fourth item</li>
+        <li>Fifth item</li>
+    </ol>
+    <ul>
+        <li>First item</li>
+        <li class="green bold">Second item</li>
+        <li class="green">Third item</li>
+        <li>Fourth item</li>
+        <li>Fifth item</li>
+    </ul>
+</body>
+</html>

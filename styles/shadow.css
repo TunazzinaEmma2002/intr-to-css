@@ -1,0 +1,21 @@
+.blog{
+    background-color: #c78282;
+    width: 400px;
+    margin: 50px;
+    box-shadow: 20px 20px 10px green;
+}
+
+#header{
+    background-color: #c8497e;
+    background-image: url(../styles/frozen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    height: 1200px;
+}
+
+#header h1{
+    text-align: center;
+    
+    padding-top: 50px;
+}

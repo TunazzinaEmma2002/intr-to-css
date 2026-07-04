@@ -1,0 +1,19 @@
+article{
+    background-color: rgb(237, 129, 204);
+}
+h2{
+    text-align: center;
+}
+
+#second-article{
+    display: none;
+    /* visibility: hidden; */
+}
+
+span{
+    color: red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(67, 15, 151);    
+}
